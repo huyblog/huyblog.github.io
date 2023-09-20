@@ -1250,7 +1250,8 @@ button:focus {
 .sample-text-area {
   padding: 100px 0px; }
   .sample-text-area .title_color {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+   }
   .sample-text-area p {
     line-height: 26px; }
     .sample-text-area p b {
@@ -1277,7 +1278,8 @@ button:focus {
   color: #000000; }
 
 .title_color {
-  color: #000000; }
+  color: #000000;
+text-align: center; }
 
 .button-group-area {
   margin-top: 15px; }
@@ -1401,6 +1403,7 @@ button:focus {
   padding-top: 0px;
   padding-bottom: 0px; }
 
+
 /*==============End Elements Button Area css ================*/
 /* =================================== */
 /*  Elements Page Styles
@@ -1409,7 +1412,9 @@ button:focus {
 .generic-banner {
   margin-top: 60px;
   text-align: center; }
-
+.blog_version{
+  text-align: center;
+}
 .generic-banner .height {
   height: 600px; }
 
@@ -3249,9 +3254,12 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .blog_version .footer_area {
-  background: #f9f9fd; }
+  background: #f9f9fd;
+   
+}
   .blog_version .footer_area:before {
-    content: none; }
+    content: none;
+   }
 
 .footer_area {
   padding: 120px 0;
